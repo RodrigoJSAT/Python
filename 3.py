@@ -46,7 +46,7 @@ while valores_totales>60:
 
 print("los minutos restantes son",valores_totales,"Y",ayuda,"Minutos son",cont,"Horas")
 
-lapiz="tuputimimamadre"
+lapiz="hshsslsksks"
 avion="NOse"
 
 print((lapiz>avion))
