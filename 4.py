@@ -34,17 +34,26 @@ print(f"Ya termino de ingresar sus tareas que en total fueron:{cont} Tareas:")
 
 print("TAREAS GUARDADAS: ")
 
-print(lista)
 
-print(lista[0])
+for i in lista:
+    print(i)
 
-print(len(lista))
+print("Numero de cada tarea: ")
 
-
-print(lista[-1])
-
-
-for hola in lista:
+for hola in range (len(lista)):
     print(hola)
 
+
     
+borrar=input("Ingrese el numero de la tarea que desea borrar y si no quiere ingrese no")
+
+if borrar != "no":
+    borrar=int(borrar)
+
+
+eliminar=lista.pop(borrar)
+
+print(f"elimino con exito la tarea {eliminar}")
+
+for i in lista:
+    print(lista)
