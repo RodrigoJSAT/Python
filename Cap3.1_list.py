@@ -1,11 +1,11 @@
 lista_de_compras=[]
-i=1
+contador=0
 
 
-while i< 4:
+while contador< 4:
     productos=input("Ingrese un producto para agregar: ")
     lista_de_compras.append(productos)
-    i=i+1
+    contador=contador+1
 
 lista_de_compras[0]=lista_de_compras[0].rstrip()
 print(f"Tu Primer Producto Ingresado Fue {lista_de_compras[0].title()}")
