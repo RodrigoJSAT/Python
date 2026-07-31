@@ -45,7 +45,7 @@ for hola in range (len(lista)):
 
 
     
-borrar=input("Ingrese el numero de la tarea que desea borrar y si no quiere ingrese no")
+borrar=input("Ingrese el numero de la tarea que desea borrar y si no quiere ingrese no: ")
 
 if borrar != "no":
     borrar=int(borrar)
