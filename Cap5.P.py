@@ -4,8 +4,8 @@ invitados_generales=("Juan","Pedro","John")
 
 registro_de_entradas=[]
 
-cont=0
-while cont<=2:
+cont=1
+while cont<=5:
     nombre=input("Ingrese su nombre: ")
 
     if nombre in invitados_vip:
@@ -26,13 +26,13 @@ while cont<=2:
 
 
 registro_de_entradas=sorted(registro_de_entradas) 
-"""
+
+
+#Mal interprete esta parte como dijiste el registro final pense
+#que era el ultimo invitado que se habia ingresado
+
+print(f"El registro completo y ordenado es: {registro_de_entradas}")
 print(f"Los invitados Fueron:{len(registro_de_entradas)}")
-print("Sus Nombres Aqui:")
-for i in registro_de_entradas:
-    
-    print(i)
-"""    
 
 for i in range(len(registro_de_entradas)):
-    print(f"Invitado Numero {i+1} {registro_de_entradas[i]}")
+    print(f"Invitado Numero {i+1}: {registro_de_entradas[i]}")
